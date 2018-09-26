@@ -3,7 +3,10 @@ package testTest;
 public class Customer {
 	private String customerID;
 	private String customerName;
+	
 	private int customerSalary;
+	
+	private String customerAddress;
 	
 	
 	public String getCustomerID() {
@@ -25,6 +28,15 @@ public class Customer {
 		this.customerSalary = customerSalary;
 	}
 	
+	public String setCustomerAddress (String customerAddress) {
+		this.customerAddress = customerAddress;
+		
+	}
 	
+	public void getCustomerAddress() {
+		return customerAddress;
+		
+		
+	}
 
 }
